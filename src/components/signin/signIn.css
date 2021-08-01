@@ -1,0 +1,106 @@
+.container{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 480px;
+    overflow: hidden;
+}
+.authForm{
+    background-color: tomato;
+    margin: 5px 0;
+    display: flex;
+    position: relative;
+    left: 0px;
+    transition: 1s ease;
+}
+.login{
+    height: 300px;
+    background-color: rgb(241, 228, 205);
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.signup{
+    height: 300px;
+    padding: 0 20px;
+    background-color: rgb(212, 245, 164);
+    display: flex;
+    flex-direction: column;
+}
+.loginInput{
+    width: 360px;
+    border: 2px solid orange;
+    border-radius: 8px;
+    line-height: 30px;
+    margin: 10px 0;
+    outline: 0;
+}
+.registerInput{
+    width: 360px;
+    border: 2px solid greenyellow;
+    border-radius: 8px;
+    line-height: 30px;
+    margin: 8px 0;
+    outline: 0;
+   
+}
+.spanInput1{
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 8px;
+    line-height: 30px;
+    margin: 10px 0;
+    outline: 0;
+    background-color: greenyellow;
+    position: absolute;
+    left: 700px;
+    top: 41px;
+    cursor: pointer;
+    color: white;
+}
+.spanInput1:active{
+   background-color: green;
+}
+/* .spanInput2{
+    width: 80px;
+    border: 2px solid greenyellow;
+    border-radius: 8px;
+    line-height: 30px;
+    margin: 10px 0;
+    outline: 0;
+    background-color: greenyellow;
+    position: absolute;
+    left: 700px;
+    top: 92px;
+    cursor: pointer;
+} */
+.loginbtn{
+    background-color: skyblue;
+    color: white;
+    border-radius: 8px;
+    line-height: 30px;
+    margin: 10px 0;
+}
+.signupbtn{
+background-color: greenyellow;
+color: black;
+border-radius: 8px;
+    line-height: 30px;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+.signupbtn:active{
+    background-color: green;
+}
+.socialSignIn{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.socialSignIn button{
+    margin: 20px 0px;
+    width: 50px;
+    height: 30px;
+}

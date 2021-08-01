@@ -1,0 +1,40 @@
+.dashboard{
+    background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+display: flex;
+padding: 20px;
+
+}
+
+.parties{
+    width: 30%;
+    height: 70%;
+   /* background-color: white; */
+   border: 1px solid white;
+}
+
+.stream{
+    width: 47%;
+    height: 70%;
+   /* background-color: white; */
+   border: 1px solid white;
+}
+
+.chat{
+    width: 20%;
+    height: 70%;
+   /* background-color: white; */
+   border: 1px solid white;
+}
+
+.createParty{
+    height: 30px;
+  border-radius: 10px;
+  padding:5px 10px;
+  color: white;
+  background-color: rgb(211, 82, 211);
+  position: relative;
+  top: 350px;
+}
