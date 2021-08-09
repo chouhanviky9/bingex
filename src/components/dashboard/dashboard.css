@@ -2,16 +2,18 @@
     background: #232526;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-height: 100vh;
+height: 86vh;
 display: flex;
 padding: 20px;
-
+position: relative;
+overflow: hidden;
+transition: 1s ease;
 }
 
 .parties{
-    width: 30%;
-    height: 70%;
-   /* background-color: white; */
+    width: 28%;
+    height: 81%;
+   background-color: #f0f1f1;
    border: 1px solid white;
 }
 
@@ -19,7 +21,7 @@ padding: 20px;
     width: 47%;
     height: 70%;
    /* background-color: white; */
-   border: 1px solid white;
+   /* border: 1px solid white; */
 }
 
 .chat{
@@ -37,4 +39,32 @@ padding: 20px;
   background-color: rgb(211, 82, 211);
   position: relative;
   top: 350px;
+}
+.list{
+    position: absolute;
+    width: 72%;
+    height: 450px;
+    background-color: rgb(235, 229, 222);
+    top: 430px;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-y: scroll;
+    transition: 1s ease;
+    /* top:120px; */
+}
+.bar{
+   margin: 5px 40%;
+    border-top: 8px solid black;
+    border-radius: 5px;
+    padding-top: 10px;
+    box-shadow: 10px -1px 5px -2px #888;
+}
+.bar:hover{
+    background-color: rgb(199, 197, 197);
+    
+    cursor: pointer;
+}
+.showcase{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }

@@ -70,8 +70,8 @@ function SignIn() {
             <div className="socialSignIn">
             -----------------Quick Sign In Coming Soon------------------
             <div classname="special">
-                <button><i class="fa fa-google" aria-hidden="true"></i></button>
-                <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                <button><i className="fa fa-google" aria-hidden="true"></i></button>
+                <button><i className="fa fa-facebook" aria-hidden="true"></i></button>
             </div>
             
             </div>
